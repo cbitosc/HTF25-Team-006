@@ -1,0 +1,89 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- additions for backend, generated assets, and common caches ---
+
+# Vite / dev caches
+/.vite
+.cache/
+
+# Local env files (secrets)
+.env
+.env.local
+.env.*.local
+local_settings.py
+secrets/
+
+# Frontend generated build
+build/
+public/dist/
+dist/
+
+# Generated audio or large assets
+src/assets/generated/
+*.mp3
+*.wav
+*.ogg
+
+# Python / backend
+# virtualenvs
+.venv/
+venv/
+ENV/
+env/
+src/backend/.venv/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# packaging / wheel metadata
+*.egg-info/
+pip-wheel-metadata/
+dist/
+*.whl
+
+# Test / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Ensure pages folder is not ignored
+!src/pages/
+!src/pages/**

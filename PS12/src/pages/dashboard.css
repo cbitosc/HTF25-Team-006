@@ -1,0 +1,40 @@
+.dashboard-root {
+  max-width: 900px;
+  margin: 28px auto;
+  padding: 20px;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  color: blue;
+}
+.dashboard-root header h1 {
+  margin: 0 0 6px 0;
+}
+.subtitle {
+  margin: 0 0 16px 0;
+  color: #555;
+}
+
+.upload-section,
+.podcasts-section {
+  background: black;
+  border: 1px solid blue;
+  padding: 16px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+.uploaded-list ul,
+.podcasts-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+.podcast-item {
+  margin-bottom: 12px;
+}
+.actions {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+}
+button.secondary {
+  background: #eee;
+  color: blue
+}
